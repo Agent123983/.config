@@ -1,0 +1,15 @@
+[2024-11-13 18:26:48.320] [info] Logseq App(0.10.9) Starting... 
+[2024-11-13 18:26:48.328] [info] restore proxy settings {:type "system"}
+[2024-11-13 18:26:48.328] [info] set proxy to {:type "system"}
+[2024-11-13 18:26:49.582] [debug] :electron.handler/watch-dir {:path "/home/CJ/.logseq/config"}
+[2024-11-13 18:26:53.194] [debug] window-all-closed Quitting...
+[2024-11-13 20:19:09.435] [info] Logseq App(0.10.9) Starting... 
+[2024-11-13 20:19:09.438] [info] restore proxy settings {:type "system"}
+[2024-11-13 20:19:09.439] [info] set proxy to {:type "system"}
+[2024-11-13 20:19:10.526] [debug] :electron.handler/watch-dir {:path "/home/CJ/.logseq/config"}
+[2024-11-13 20:19:20.245] [info] :electron.handler/open-dir open folder selection dialog
+[2024-11-13 20:19:49.176] [debug] :electron.handler/open-dir {:path "/home/CJ/Documents/logseq"}
+[2024-11-13 20:19:49.222] [debug] :electron.handler/watch-dir {:path "/home/CJ/Documents/logseq"}
+[2024-11-13 20:25:25.367] [info] :electron.handler/open-dir open folder selection dialog
+[2024-11-13 20:25:38.364] [debug] :electron.handler/open-dir {:path "/home/CJ/Documents/DQCERT"}
+[2024-11-13 20:25:38.442] [debug] :electron.handler/watch-dir {:path "/home/CJ/Documents/DQCERT"}

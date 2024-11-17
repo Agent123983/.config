@@ -1,0 +1,45 @@
+2024-08-10 16:23:35.273 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-10 16:23:35.273 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-10 16:23:35.273 [info] Experiment 'pythonSurveyNotification' is active
+2024-08-10 16:23:35.273 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-10 16:23:35.273 [info] Experiment 'pythonTestAdapter' is active
+2024-08-10 16:23:35.273 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/CJ/led-name-badge-ls32/.pixi/envs'
+	at Object.readdirSync (node:fs:1509:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:11418)
+	at /home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/out/client/extension.js:2:586747
+	at /home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/CJ/led-name-badge-ls32/.pixi/envs'
+}
+2024-08-10 16:23:35.273 [error] Dir "/home/CJ/led-name-badge-ls32/.pixi/envs" is not watchable (directory does not exist)
+2024-08-10 16:23:35.315 [info] Default formatter is set to null for workspace /home/CJ/led-name-badge-ls32
+2024-08-10 16:23:35.327 [info] Python interpreter path: ./ledtag/bin/python
+2024-08-10 16:23:35.338 [info] > pyenv which python
+2024-08-10 16:23:35.338 [info] cwd: .
+2024-08-10 16:23:35.542 [info] > pixi --version
+2024-08-10 16:23:35.542 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-10 16:23:35.542 [warning] could not find a pixi interpreter for the interpreter at /home/CJ/led-name-badge-ls32/ledtag/bin/python
+2024-08-10 16:23:35.556 [info] > . ./ledtag/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariables.py
+2024-08-10 16:23:35.556 [info] shell: bash
+2024-08-10 16:23:35.591 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariables.py
+2024-08-10 16:23:35.591 [info] shell: bash
+2024-08-10 16:23:35.631 [info] Setting environment variable VIRTUAL_ENV in collection to /home/CJ/led-name-badge-ls32/ledtag {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-10 16:23:35.631 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (ledtag)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-10 16:23:35.631 [info] Prepending environment variable PS1 in collection with (ledtag)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-08-10 16:23:35.631 [info] Prepending environment variable PATH in collection with /home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash:/home/CJ/led-name-badge-ls32/ledtag/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-10 16:23:35.632 [info] Send text to terminal: /bin/python /home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/CJ/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-08-10 16:23:36.619 [info] Starting Pylance language server.

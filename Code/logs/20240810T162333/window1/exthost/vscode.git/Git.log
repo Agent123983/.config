@@ -1,0 +1,36 @@
+2024-08-10 16:23:35.723 [info] [main] Log level: Info
+2024-08-10 16:23:35.723 [info] [main] Validating found git in: "git"
+2024-08-10 16:23:35.723 [info] [main] Using git "2.46.0" from "git"
+2024-08-10 16:23:35.723 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-10 16:23:35.723 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 16:23:35.723 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2024-08-10 16:23:35.723 [info] [Model][openRepository] Opened repository: /home/CJ/led-name-badge-ls32
+2024-08-10 16:23:35.723 [info] > git config --get commit.template [2ms]
+2024-08-10 16:23:35.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-08-10 16:23:35.747 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/CJ/led-name-badge-ls32/.git/refs/remotes/origin/master'
+2024-08-10 16:23:35.748 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-10 16:23:35.756 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2024-08-10 16:23:35.763 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-10 16:23:35.774 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 16:23:35.793 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 16:23:35.810 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-10 16:23:35.826 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 16:23:35.837 [info] > git status -z -uall [76ms]
+2024-08-10 16:23:35.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-08-10 16:23:35.870 [info] > git rev-parse --show-toplevel [34ms]
+2024-08-10 16:23:35.876 [info] > git config --get commit.template [17ms]
+2024-08-10 16:23:35.876 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-10 16:23:35.878 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-10 16:23:35.878 [info] > git config --local branch.master.vscode-merge-base [8ms]
+2024-08-10 16:23:35.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [13ms]
+2024-08-10 16:23:35.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-08-10 16:23:35.930 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/CJ/led-name-badge-ls32/.git/refs/remotes/origin/master'
+2024-08-10 16:23:35.931 [info] > git merge-base refs/heads/master refs/remotes/origin/master [15ms]
+2024-08-10 16:23:35.956 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [16ms]
+2024-08-10 16:23:35.963 [info] > git rev-parse refs/remotes/origin/master [33ms]
+2024-08-10 16:23:35.990 [info] > git diff --name-status -z --diff-filter=ADMR 2869d228454e0ed4ba7c9000dd362b302500cfda...refs/remotes/origin/master [27ms]
+2024-08-10 16:23:36.029 [info] > git status -z -uall [60ms]
+2024-08-10 16:23:36.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-10 16:23:36.053 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-08-10 16:23:36.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-10 16:23:36.278 [info] > git check-ignore -v -z --stdin [2ms]

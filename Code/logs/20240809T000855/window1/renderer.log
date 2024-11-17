@@ -1,0 +1,9 @@
+2024-08-09 00:08:56.506 [info] Started local extension host with pid 19791.
+2024-08-09 00:08:56.530 [info] Started initializing default profile extensions in extensions installation folder. file:///home/CJ/.vscode/extensions
+2024-08-09 00:08:56.640 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/CJ/.vscode/extensions
+2024-08-09 00:08:59.420 [info] [perf] Render performance baseline is 14ms
+2024-08-09 00:11:47.391 [info] Started local extension host with pid 20555.
+2024-08-09 00:11:50.278 [info] [perf] Render performance baseline is 15ms
+2024-08-09 12:28:16.914 [warning] Failed to fetch chat participant registry Offline
+2024-08-09 12:33:16.939 [warning] Failed to fetch chat participant registry Offline
+2024-08-09 12:38:16.963 [warning] Failed to fetch chat participant registry Offline
